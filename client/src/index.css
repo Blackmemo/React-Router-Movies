@@ -14,8 +14,12 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  
 }
-
+.active {
+  text-decoration: none;
+  color: black;
+}
 .movie-director {
   padding: 4px 0;
   font-size: 0.8rem;
@@ -34,6 +38,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
+}
+
+.link {
+  text-decoration: none;
+  color: black;
 }
 
 .saved-list h3 {
@@ -43,10 +53,16 @@ body {
 .saved-movie {
   margin: 0 10px;
 }
+
+.saved-movie a {
+  text-decoration: none;
+  color: black;
+}
 .saved-active {
   color: blue;
   border: 1px solid grey;
   padding: 5px;
+  
 }
 .save-wrapper {
   position: relative;
@@ -69,4 +85,6 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+  text-decoration: none;
+  color: black;
 }
